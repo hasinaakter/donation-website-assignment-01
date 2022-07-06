@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- added banner and banner text -->
+    <section class="banner">
+        <div class="banner-text">
+            <h1 style="color:#FFFFFF;font-size: 40px;">Let's help the poor people!</h1>
+            <p>In our society, there are a lot of people who did not get their daily needs. We should have helped those
+                people. Poor people do not have enough clothing, food, education, and healthcare. Being poor means being
+                deprived economically, politically, and socially.</p>
+            <button class="btn">Donate Now</button>
+        </div>
+    </section>
+    <!-- added donate today section -->
+    <section>
+        <div class="donate-id">
+            <h1>Donate Today</h1>
+            <p class="text">When you donate money to a charity
+                like Narayana Seva Sansthan, you are making a real difference in the lives of the poor and needy.</p>
+        </div>
+        <div class="flex-contrainer">
+            <h3 class="donate-amount">100tk</h3>
+            <h3 class="donate-amount">300tk</h3>
+            <h3 class="donate-amount" id="defult-amount">500tk</h3>
+            <h3 class="donate-amount">700tk</h3>
+            <h3 class="donate-amount">900tk</h3>
+        </div>
+        <div class="donate-id">
+            <input type="number" placeholder="Others amount! (Taka)" id="input">
+            <br>
+            <button class="btn">Donate Now</button>
+        </div>
+    </section>
+    <!-- Added donate plan section-->
+    <section class="donate-plan">
+        <div class="donate-id">
+            <h1>Donate Plan</h1>
+            <p class="text">There are plenty of people that take their homes and the amenities within them for granted.
+                Not everyone gets to have a roof over their head every night or a bedroom all to themselves. For those
+                of us who understand how fortunate we are, hearing that others go without things that we consider
+                essentials is disconcerting at best and heart-wrenching at worst</p>
+        </div>
+        <div class="flex-contrainer">
+            <div class="donate-item" id="box-1">
+                <img src="icons/clothes.svg" height="100px">
+
+                <h2>Clothes for family</h2>
+                <p> It should go without saying that some of the best items to donate to really help the homeless are
+                    ones that protect them from the outside world. Exposure to the elements is a serious concern when
+                    you don not have a place to live, especially if you live in an area with particularly harsh weather.
+                    Cold weather clothing is a great donation to keep the people you are trying to help safe through
+                    fall and winter</p>
+            </div>
+
+            <div class="donate-item" id="box-2">
+                <img src="icons/food.png" height="100px">
+                <h2>Food for family</h2>
+                <p>Donating wholesome food for human consumption diverts food waste from landfills and puts food on the
+                    table for families in need.
+
+                    Donations of nonperishable and unspoiled perishable food from homes and businesses help stock the
+                    shelves at food banks, soup kitchens, pantries, and shelters.</p>
+            </div>
+
+            <div class="donate-item" id="box-3">
+                <img src="icons/shelter.png" height="100px">
+                <h2>Shelter for family</h2>
+                <p>Families facing a housing crisis may be deemed eligible if they meet the following criteria:
+
+                    Be a resident of Massachusetts
+                    Meet the gross income standards for Emergency Assistance
+                    Have needy children under the age of 21, or be pregnant</p>
+            </div>
+        </div>
+    </section>
+    <!-- Extra section start from here -->
+    <section class="extra-part">
+        <div>
+            <img src="images/community.PNG" alt="" style="margin: 10px;">
+
+        </div>
+        <div>
+
+            <div>
+                <h1>Our Mission</h1>
+                <p>In addition to the donations mentioned above, we have several missions.</p>
+            </div>
+
+            <div class="our-missions">
+                <div class="mission">
+                    <div>
+                        <img src="images/children.PNG" alt="" style="width:50%">
+
+                    </div>
+                    <div>
+                        <h3>Saving Children</h3>
+                        <p>Children of the Mekong is teaching me how to become a better person, how to study well to
+                            have a
+                            beautiful future and a great job when I will finish my studies.</p>
+                    </div>
+                </div>
+                <div class="mission">
+                    <div>
+                        <img src="images/peace.PNG" alt="" style="width:50%">
+
+                    </div>
+                    <div>
+                        <h3>Peace On the planet</h3>
+                        <p>With peace, people are freer to tour any country of their choice without fear of violence.
+                            World
+                            peace also contributes to cultural exchanges. </p>
+                    </div>
+                </div>
+                <div class="mission">
+                    <div>
+                        <img src="images/care.PNG" alt="" style="width:50% ">
+
+                    </div>
+                    <div>
+                        <h3>Care & protection</h3>
+                        <p> This course is designed for practitioners who have an existing knowledge of child protection
+                            in
+                            emergencies. If you are new to child protection in emergencies, please seek out introductory
+                            resources, such as this course from UNICEF, before taking this module.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Added a form  -->
+    <section>
+        <div class="donate-id">
+            <h1>Get Updates</h1>
+            <p class="text">We believe, Service to oppressed humanity is service to the almighty and have been
+                dedicatedly working
+                for over 3 decades to uplift the underprivileged section of the society in the realm of rehabilitation
+                and treatment through the execution of charitable events and camps.</p>
+        </div>
+        <div>
+            <form class="form">
+                <input type="text" name="name" placeholder="Enter your Name"><br><br>
+                <input type="text" name="email" placeholder="Enter your Email address">
+                <input type="submit" value="Submit" class="btn">
+            </form>
+        </div>
+
+    </section>
+    <footer class="footer-site">
+        <div>
+            <h2 id="footer-text">Be helpful</h2>
+            <p>And be ready to stand beside poor</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
